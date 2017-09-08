@@ -31,14 +31,6 @@ for i in range(500):
 	#Wrights 1 px forward 
 	test.right(271)
 	#turns pen 271° right (also left for max of 360° (full turn))
-	"""for l in range(4):
-		test.color(random.choice(colors))
-		test.forward(10)
-		test.right(271)
-		for l in range(2):
-			test.forward(50)
-			test.right(60)
-	"""
 	
 ts = turtle.getscreen()
 #Save screnshot as ts
